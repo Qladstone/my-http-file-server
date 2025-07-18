@@ -33,7 +33,7 @@ public class HttpFileServer {
     private static void printUsage() {
         System.out.println("""
                 Usage:
-                java -jar my-http-file-server-*.jar -Dapp.root=<root> -Dapp.port=<port>
+                java -Dapp.root=<root> -Dapp.port=<port> -jar my-http-file-server-*.jar
                 \troot: Absolute or relative path to file root directory.
                 \tport: optional port number to serve, default is 8080.
                 """);
